@@ -5,15 +5,15 @@
 package g0
 
 import (
-	"github.com/szkiba/xk6-g0/internal/builtin/gjson"
-	"github.com/szkiba/xk6-g0/internal/builtin/gofakeit"
-	"github.com/szkiba/xk6-g0/internal/builtin/goquery"
-	"github.com/szkiba/xk6-g0/internal/builtin/jsonpath"
-	"github.com/szkiba/xk6-g0/internal/builtin/jsonschema"
-	"github.com/szkiba/xk6-g0/internal/builtin/logrus"
-	"github.com/szkiba/xk6-g0/internal/builtin/resty"
-	"github.com/szkiba/xk6-g0/internal/builtin/stdlib"
-	"github.com/szkiba/xk6-g0/internal/builtin/testify"
+	"github.com/menporiyaalan/xk6go/internal/builtin/gjson"
+	"github.com/menporiyaalan/xk6go/internal/builtin/gofakeit"
+	"github.com/menporiyaalan/xk6go/internal/builtin/goquery"
+	"github.com/menporiyaalan/xk6go/internal/builtin/jsonpath"
+	"github.com/menporiyaalan/xk6go/internal/builtin/jsonschema"
+	"github.com/menporiyaalan/xk6go/internal/builtin/logrus"
+	"github.com/menporiyaalan/xk6go/internal/builtin/resty"
+	"github.com/menporiyaalan/xk6go/internal/builtin/stdlib"
+	"github.com/menporiyaalan/xk6go/internal/builtin/testify"
 	"go.k6.io/k6/js/modules"
 )
 

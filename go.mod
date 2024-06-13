@@ -3,7 +3,7 @@ module github.com/szkiba/xk6-g0
 go 1.20
 
 require (
-	github.com/nats-io/nats.go
+	github.com/nats-io/nats.go v1.35.0
 	github.com/PaesslerAG/gval v1.0.0
 	github.com/PaesslerAG/jsonpath v0.1.1
 	github.com/PuerkitoBio/goquery v1.9.1

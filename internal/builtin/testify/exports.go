@@ -8,8 +8,8 @@ import (
 	"reflect"
 
 	"github.com/imdario/mergo"
-	"github.com/szkiba/xk6-g0/internal/builtin/testify/assertions"
-	"github.com/szkiba/xk6-g0/internal/builtin/testify/requirements"
+	"github.com/menporiyaalan/xk6go/internal/builtin/testify/assertions"
+	"github.com/menporiyaalan/xk6go/internal/builtin/testify/requirements"
 	"github.com/traefik/yaegi/interp"
 	"go.k6.io/k6/js/modules"
 )

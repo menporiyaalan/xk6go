@@ -1,4 +1,4 @@
-module menporiyaalan/xk6go
+module github.com/menporiyaalan/xk6go
 
 go 1.20
 

@@ -5,7 +5,7 @@
 package g0
 
 import (
-	"github.com/szkiba/xk6-g0/g0"
+	"github.com/menporiyaalan/xk6go/g0"
 )
 
 func init() { //nolint:gochecknoinits

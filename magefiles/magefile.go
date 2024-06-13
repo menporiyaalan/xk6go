@@ -41,7 +41,7 @@ func Test() error {
 }
 
 func Build() error {
-	return shellcmd.Command(`xk6 build --with github.com/szkiba/xk6-g0=.`).Run()
+	return shellcmd.Command(`xk6 build --with github.com/menporiyaalan/xk6go=.`).Run()
 }
 
 func Run() error {

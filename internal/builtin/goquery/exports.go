@@ -10,7 +10,7 @@ import (
 
 	"github.com/PuerkitoBio/goquery"
 	"github.com/imdario/mergo"
-	"github.com/szkiba/xk6-g0/g0/addon"
+	"github.com/menporiyaalan/xk6go/g0/addon"
 	"github.com/traefik/yaegi/interp"
 	"go.k6.io/k6/js/modules"
 )

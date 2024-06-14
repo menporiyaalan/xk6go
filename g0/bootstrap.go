@@ -19,6 +19,7 @@ import (
 )
 
 func registerBuiltins() {
+	RegisterExports(nats.Exports)
 	RegisterExports(stdlib.Exports)
 	RegisterExports(logrus.Exports)
 	RegisterExports(resty.Exports)

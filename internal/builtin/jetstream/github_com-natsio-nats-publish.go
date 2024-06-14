@@ -7,15 +7,15 @@
 package jetstream
 
 import (
-	"github.com/nats-io/nats.go/jetstream"
+	"github.com/nats-io/nats.go/jetstream.publish"
 	"reflect"
 )
 
 func init() {
 	Symbols["github.com/nats-io/nats.go/jetstream/publish"] = map[string]reflect.Value{
 		// function, constant and variable definitions
-		"Publish": 		reflect.ValueOf(jetstream.publish.Publish),
-		"PublishAsync": 		reflect.ValueOf(jetstream.publish.PublishAsync),
-		"PublishAsyncComplete": 		reflect.ValueOf(jetstream.publish.PublishAsyncComplete),
+		"Publish": 		reflect.ValueOf(publish.Publish),
+		"PublishAsync": 		reflect.ValueOf(publish.PublishAsync),
+		"PublishAsyncComplete": 		reflect.ValueOf(publish.PublishAsyncComplete),
 	}
 }

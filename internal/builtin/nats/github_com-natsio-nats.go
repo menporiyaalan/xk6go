@@ -14,6 +14,7 @@ import (
 func init() {
 	Symbols["github.com/nats-io/nats.go/nats"] = map[string]reflect.Value{
 		// function, constant and variable definitions
+		"Connect": 		reflect.ValueOf(nats.Connect),
 		"UserCredentials": 		reflect.ValueOf(nats.UserCredentials),
 	}
 }

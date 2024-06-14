@@ -12,7 +12,7 @@ import (
 )
 
 func init() {
-	Symbols["github.com/nats-io/nats.go/jetstream/jetstream"] = map[string]reflect.Value{
+	Symbols["github.com/nats-io/nats.go/jetstream/publish"] = map[string]reflect.Value{
 		// function, constant and variable definitions
 		"Publish": 		reflect.ValueOf(jetstream.Publish),
 	}

@@ -5,7 +5,7 @@
 package g0
 
 import (
-	"github.com/menporiyaalan/xk6go/internal/builtin/jetstream"
+	"github.com/menporiyaalan/xk6go/internal/builtin/publish"
 	"github.com/menporiyaalan/xk6go/internal/builtin/nats"
 	"github.com/menporiyaalan/xk6go/internal/builtin/gjson"
 	"github.com/menporiyaalan/xk6go/internal/builtin/gofakeit"
@@ -20,7 +20,7 @@ import (
 )
 
 func registerBuiltins() {
-	RegisterExports(jetstream.Exports)
+	RegisterExports(publish.Exports)
 	RegisterExports(nats.Exports)
 	RegisterExports(stdlib.Exports)
 	RegisterExports(logrus.Exports)

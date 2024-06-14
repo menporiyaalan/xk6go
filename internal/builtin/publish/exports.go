@@ -2,7 +2,7 @@
 //
 // SPDX-License-Identifier: MIT
 
-package jetstream
+package publish
 
 import (
 	"github.com/traefik/yaegi/interp"

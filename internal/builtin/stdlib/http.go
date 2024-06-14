@@ -7,7 +7,7 @@ package stdlib
 import (
 	"net/http"
 	"reflect"
-	"github.com/nats-io/nats.go"
+	
 	"github.com/menporiyaalan/xk6go/g0/addon"
 	"github.com/traefik/yaegi/interp"
 	"go.k6.io/k6/js/modules"

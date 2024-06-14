@@ -5,6 +5,7 @@
 package g0
 
 import (
+	nats "github.com/nats-io/nats.go"
 	"github.com/menporiyaalan/xk6go/internal/builtin/gjson"
 	"github.com/menporiyaalan/xk6go/internal/builtin/gofakeit"
 	"github.com/menporiyaalan/xk6go/internal/builtin/goquery"

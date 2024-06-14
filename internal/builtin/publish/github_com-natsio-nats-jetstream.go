@@ -7,7 +7,7 @@
 package publish
 
 import (
-	"github.com/nats-io/nats.go/jetstream/publish.go"
+	"github.com/nats-io/nats.go/jetstream"
 	"reflect"
 )
 

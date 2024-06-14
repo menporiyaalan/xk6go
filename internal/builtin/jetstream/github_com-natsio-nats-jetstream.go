@@ -15,5 +15,7 @@ func init() {
 	Symbols["github.com/nats-io/nats.go/jetstream/jetstream"] = map[string]reflect.Value{
 		// function, constant and variable definitions
 		"Publish": 		reflect.ValueOf(jetstream.Publisher.Publish),
+		"PublishAsync": 		reflect.ValueOf(jetstream.Publisher.PublishAsync),
+		"PublishAsyncComplete": 		reflect.ValueOf(jetstream.Publisher.PublishAsyncComplete),
 	}
 }
